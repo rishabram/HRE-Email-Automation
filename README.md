@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project automates responses to emails in a Microsoft 365 (Outlook) inbox. It checks for unread messages, determines if they match any known Frequently Asked Questions (FAQs) stored in a CSV, and sends auto-replies where possible. Unmatched emails are moved to a "ManualReview" folder for human follow-up. The system also logs all processed emails in an SQLite database.
+This a lite version of the project that automates responses to emails in a Microsoft 365 (Outlook) inbox. It checks for unread messages, determines if they match any known Frequently Asked Questions (FAQs) stored in a CSV, and sends auto-replies where possible. Unmatched emails are moved to a "ManualReview" folder for human follow-up. The system also logs all processed emails in an SQLite database.
 
 **Key Features**:
 - **FAQ Matching**: A CSV-based knowledge base with keywords to detect common housing-related questions.
